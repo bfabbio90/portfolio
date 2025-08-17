@@ -3,3 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+    --white: #fff;
+    --dark1: #34344e;
+    --dark2: #3a415a;
+    --dark3: #566981;
+    --dark4: #89a7b1;
+    --dark5: #ebfcf6;
+    --dark6: #2f2f46;
+    --cyan1: #70e3ea;
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
