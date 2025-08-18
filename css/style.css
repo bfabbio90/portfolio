@@ -20,6 +20,34 @@ html{
 
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark6);
+    color: var(--white);
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: white;
