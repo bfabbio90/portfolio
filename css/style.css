@@ -52,3 +52,14 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: white;
 }
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    background-image: url("/img/programador.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+}
