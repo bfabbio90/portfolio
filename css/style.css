@@ -30,6 +30,11 @@ header{
     text-align: center;        
 }
 
+header h2{  
+    font-size: 2rem;
+    color: var(--cyan1);
+}
+
 #dev{
     color: var(--green);
 }
@@ -43,6 +48,7 @@ header nav ul {
     display: flex;
     list-style: none;
     margin: 0;
+    font-size: 1.3rem;
     padding: 0;
     gap: 20px;
 }
@@ -257,3 +263,58 @@ footer > div{
     flex-direction: center;
     margin: auto;
 }
+
+@media (max-width: 1024px) {
+  .project-list img {
+    width: 80%; 
+    height: auto;
+  }
+
+  .sobre {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lista-skill {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  header nav ul {
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .main h2 {
+    font-size: 1.5rem;
+  }
+
+  .main p {
+    font-size: 1.2rem;
+  }
+
+  .project-list img {
+    width: 95%;
+    height: auto;
+  }
+
+  button.action {
+    padding: 12px 20px;
+    font-size: 16px;
+  }
+}
+
+
+
