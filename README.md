@@ -17,15 +17,18 @@ Este projeto foi desenvolvido como parte da atividade do curso **EstartandoDevs*
 
 O repositório contém os seguintes arquivos e pastas:
 
-📂 portfolio/
-├── 📄 index.html
-├── 📂 css/
+```
+portfolio/
+├── index.html
+├── css/
 │ └── styles.css
-├── 📂 img/
+├── img/
 │ ├── projeto1.png
 │ ├── projeto2.jpg
 │ └── projeto3.jpg
-└── 📄 README.md
+└── README.md
+
+```
 
 
 - `index.html`: Página principal do portfólio.
@@ -57,4 +60,5 @@ Para entrar em contato ou colaborar em projetos, você pode me encontrar nas seg
 
 - [GitHub](https://github.com/bfabbio90)
 - [LinkedIn](https://www.linkedin.com/in/bfabbio90)
+
 
