@@ -47,7 +47,7 @@ O repositório contém os seguintes arquivos e pastas:
 
 Você pode visualizar o portfólio ao vivo clicando no link abaixo:
 
-👉 [Visualizar Portfólio](https://bfabbio90.github.io/portfolio/)
+👉 [Visualizar Portfólio](https://github.com/bfabbio90/portfolio)
 
 ---
 
