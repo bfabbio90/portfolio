@@ -1,7 +1,5 @@
 # Portfólio Pessoal
 
-👋 Olá! Bem-vindo ao meu portfólio digital.
-
 Este projeto foi desenvolvido como parte da atividade do curso **EstartandoDevs**, com o objetivo de criar um portfólio pessoal utilizando HTML e CSS.
 
 ---
@@ -60,5 +58,3 @@ Para entrar em contato ou colaborar em projetos, você pode me encontrar nas seg
 
 - [GitHub](https://github.com/bfabbio90)
 - [LinkedIn](https://www.linkedin.com/in/bfabbio90)
-
-
