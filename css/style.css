@@ -18,7 +18,6 @@ html{
     --dark6: #2f2f46;
     --cyan1: #70e3ea;
     --green:  rgb(28, 228, 28);
-
 }
 
 header{
@@ -31,7 +30,7 @@ header{
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;     /* ocupa toda a largura da tela */
+  width: 100%;
   z-index: 1000;     
 }
 
@@ -62,6 +61,7 @@ header nav ul li a {
     color: var(--cyan1);
     text-decoration: none;
     font-weight: bold;
+    font-size: 1.3rem;
 }
 
 header nav ul li a:hover {
@@ -117,7 +117,7 @@ body{
     font-size: 18px;
     font-weight: bold;
     transition:  0.9s;
-    animation: 0.8s infinite alternate;
+    animation: 0.5s infinite alternate;
 }
 
 .call-to-action:hover{
@@ -196,10 +196,10 @@ body{
   font-family: 'Segoe UI', Tahoma;
 }
 
-#projetos h2 {
-  font-size: 32px;  
+#projetos h5 {
+  font-size: 25px;  
   color: var(--white);
-  margin: 30px 0;
+  margin: 30px 0 10px 0;
 }
 
 #projetos p {
@@ -228,6 +228,7 @@ body{
   transform: scale(1.08);
 }
 
+
 button.action {
   padding: 14px 28px; 
   background-color: #333;
@@ -239,6 +240,19 @@ button.action {
 
 button.action:hover {
   background-color: #555;
+}
+
+.project-list a {
+  display: flex;
+  flex-direction: column;   
+  align-items: center;      
+  text-decoration: none;    
+  color: inherit;       
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.project-list a:hover {
+  transform: scale(1.03);   
 }
 
 button.action a {
@@ -324,6 +338,42 @@ footer > div{
     padding: 12px 20px;
     font-size: 16px;
   }
+
+  .sobre-mim p {
+    font-size: 1.1rem;
+    justify-content: justify;
+    text-align: justify;
+}
+
+.formulario-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--white);
+}
+
+.formulario-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--white);
+  font-size: 16px;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  font-size: 12px;
+  color: var(--white);
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 12px;
+  resize: none;
+  font-family: 'Segoe UI', Tahoma;
+}
 }
 
 .formulario {
@@ -331,6 +381,7 @@ footer > div{
   padding: 20px;
   background: var(--dark6);
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-family: 'Segoe UI', Tahoma;
 }
 
 .formulario-container{
@@ -342,6 +393,7 @@ footer > div{
 .formulario-container h2 {
   text-align: center;
   margin-bottom: 10px;
+  font-size: 26px;
   color: var(--white);
 }
 
@@ -349,6 +401,7 @@ footer > div{
   text-align: center;
   margin-bottom: 20px;
   color: var(--white);
+  font-size: 20px;
 }
 
 form {
@@ -363,6 +416,7 @@ label {
   text-align: left;
   font-weight: bold;
   font-size: 16px;
+  font-size: 18px;
   color: var(--white);
 }
 
@@ -370,8 +424,9 @@ input, textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 16px;
   resize: none;
+  font-family: 'Segoe UI', Tahoma;
 }
 
 button {
@@ -389,7 +444,6 @@ button {
 button:hover {
   background: #555;
 }
-
 
 @media (max-width: 480px) {
   #projetos h2 {
@@ -410,7 +464,51 @@ button:hover {
 }
 
 .sobre-mim p {
-    font-size: 1rem;
+    font-size: 1.0rem;
     justify-content: justify;
+    text-align: justify;
+}
+
+.formulario-container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: var(--white);
+}
+
+.formulario-container p {
+  text-align: center;
+  margin-bottom: 20px;
+  color: var(--white);
+  font-size: 16px;
+}
+
+label {
+  text-align: left;
+  font-weight: bold;
+  font-size: 14px;
+  color: var(--white);
+}
+
+input, textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  resize: none;
+  font-family: 'Segoe UI', Tahoma;
+}
+
+.project p {
+  font-size: 2.1rem;
+}
+
+.contato-segundo h2{
+    font-size: 1.1rem;
+}
+
+.contato-segundo h3{
+    font-size: 1.0rem;
+    text-align: center;
 }
 }
